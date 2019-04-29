@@ -1,7 +1,10 @@
 {
-  "name": "lib3",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.9",
+  "private": false,
+  "name": "react-sukhmi",
+  "description": "react-sukhi",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "@types/jest": "24.0.12",
     "@types/node": "11.13.8",
@@ -14,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
