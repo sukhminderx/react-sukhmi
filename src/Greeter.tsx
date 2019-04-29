@@ -1,2 +1,5 @@
 import * as React from 'react';
-export const Greeter = (name: string) => (<div>`Hello ${name}`</div>);
+interface p {
+    name: string;
+}
+export const Greeter: React.SFC<p> = (pr: p) => (<div>Hello ${pr.name}</div>);
